@@ -60,7 +60,7 @@ body {
 }
 /* header */
 .container {
-    max-width: 1200px;
+    max-width: 1330px;
     margin: 0 auto;
 }
 .socials {
@@ -82,7 +82,7 @@ body {
     align-items: center;
     background-color: white;
     top: 0;
-    width: 1200px;
+    width: 1330px;
     border: 1px solid gray;
     position: sticky;
     margin: 0 auto;
@@ -304,8 +304,6 @@ textarea {
     text-transform: uppercase;
     padding: 20px;
     font-style: normal;
-    position: absolute;
-    left: 1200px;
 }
 .top a {
     text-decoration: none;
@@ -320,6 +318,7 @@ textarea {
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
+    height: 100vh;
 }
 .clearfix-::after, .clearfix-::before {
     content: "";
@@ -384,14 +383,14 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1200px;
+    width: 100vw;
 }
 .gallery-title {
     margin-top: 10px;
 }
 .gallery-layout {
     text-align: center;
-    margin-left: 400px;
+    margin-left: 450px;
     margin-top: 25px;
 }
 .images {
@@ -399,9 +398,8 @@ textarea {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 900px;
     margin-top: 25px;
-    align-items:flex-start}
+}
 .gallery-img {
     max-width: 40%;
     max-height: 100%;
